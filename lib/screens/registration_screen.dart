@@ -1,12 +1,10 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+
 import 'package:flash_chat/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flash_chat/components/ScreenButton.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:top_snackbar_flutter/custom_snack_bar.dart';
 import 'package:top_snackbar_flutter/top_snack_bar.dart';
-import 'chat_screen.dart';
 
 
 class RegistrationScreen extends StatefulWidget {
